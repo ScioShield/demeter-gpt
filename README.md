@@ -1,5 +1,6 @@
 # Demeter-GPT
 This Python script is designed to assist in customizing your job applications to specific job descriptions, through the use of OpenAI's GPT-4 LLM.  
+Note the output is not going to be perfect and the LLM can and does make mistakes so poof read and edit all outputs.  
 
 ## Features
 Submit a custom job description from Indeed, LinkedIn, etc. and your CV to OpenAI and get a response back.  
@@ -18,6 +19,7 @@ Create a .env file that looks like .env.example with your API key
 - openai
 - pdfminer
 - dotenv
+
 All requirements can be installed with  
 `python3 -m pip install -r requirements.txt --user`
 
@@ -35,7 +37,7 @@ To use the script simply place your OpenAI API key in the `.env` file. Once runn
 - ~~Job title section? (could make more meaningful filenames)~~
 
 ## Attempted
-In the initial stages of the script I attempted pulling the JDs directly from job sites, this wasn't viable as some sites respond with a `403` and others don't have a quarry section to pinpoint the description. To KISS it I've removed all the code and extra imports.  
+In the initial stages of the script I attempted pulling the JDs directly from job sites, this wasn't viable as some sites respond with a `403` and others don't have a section to pinpoint the description.  
 
 ## Demo
 With the [Awesome CV](https://github.com/posquit0/Awesome-CV) as input and a "Junior Infra (Linux) Engineer" job description from LinkedIn these are the results:  
