@@ -8,6 +8,7 @@ There are three default prompts:
 1. Given the following job specification and my CV, please help me create a cover letter  
 2. Based on the job specification and my CV what should I study for?  
 3. Enter your own question.  
+
 All prompts synthesize the Job Description and CV so contextual questions can be asked and answered, like the above. Option 3 allows for free text input, example "What tech stacks would the company benefit from, that I can bring to this position?", "What are excellent interview questions based on my CV and the Job Description?", etc.  
 
 ## Requirements
